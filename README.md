@@ -1,5 +1,7 @@
 # Biblioteca em Python
 
+Repositório público: https://github.com/MarkusEagle39/biblioteca-python
+
 Este projeto organiza livros, usuários e empréstimos pelo terminal. A ideia é praticar funções, listas, dicionários e testes em Python com um exemplo de biblioteca.
 
 ## Como executar
@@ -49,7 +51,7 @@ O programa não precisa de bibliotecas externas para funcionar. O pytest é nece
 - `docs/analise_sistemas.pdf`: requisitos, estrutura dos dados e regras.
 - `docs/diagrama_casos_uso.pdf`: diagrama dos casos de uso.
 - `GUIA_DE_ESTUDO.md`: explicação do código e roteiro de entrega.
-- `meu_projeto_github.txt`: situação do link de entrega.
+- `meu_projeto_github.txt`: link público para entrega.
 
 ## Versionamento
 
