@@ -1,0 +1,28 @@
+@startuml
+left to right direction
+actor Atendente
+rectangle "Sistema de biblioteca" {
+  usecase "Adicionar livro" as UC1
+  usecase "Remover livro" as UC2
+  usecase "Listar todo o acervo" as UC3
+  usecase "Registrar usuário" as UC4
+  usecase "Listar usuários" as UC5
+  usecase "Registrar empréstimo" as UC6
+  usecase "Consultar empréstimos ativos" as UC7
+  usecase "Registrar devolução" as UC8
+  usecase "Listar livros disponíveis" as UC9
+  usecase "Listar livros emprestados" as UC10
+  usecase "Encerrar programa" as UC11
+}
+Atendente -- UC1
+Atendente -- UC2
+Atendente -- UC3
+Atendente -- UC4
+Atendente -- UC5
+Atendente -- UC6
+Atendente -- UC7
+Atendente -- UC8
+Atendente -- UC9
+Atendente -- UC10
+Atendente -- UC11
+@enduml

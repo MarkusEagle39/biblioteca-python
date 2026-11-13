@@ -1,0 +1,15 @@
+RESULTADO DOS TESTES — BIBLIOTECA EM PYTHON
+
+Data: 13/11/2026
+Ferramenta: pytest 9.2.0
+Comando: python -m pytest -q outputs/biblioteca
+Resultado observado: 24 passed in 0.03s
+
+Os 24 casos incluem as variações dos testes parametrizados.
+Foram verificados cadastros, campos vazios, remoções, IDs únicos,
+empréstimos, devoluções, filtros e interação pelo menu.
+Nenhum teste usa dados pessoais reais ou conexão com serviços externos.
+
+Para executar novamente a partir da pasta do projeto:
+python3 -m pip install -r requirements-dev.txt
+python3 -m pytest -q
